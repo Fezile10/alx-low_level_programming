@@ -41,5 +41,5 @@ new->next = tmp->next;
 tmp->next->prev = new;
 tmp->next = new;
 
-return (1);
+return (new);
 }
